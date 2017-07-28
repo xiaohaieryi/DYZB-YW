@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C81C9A151F2B3E6600737E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C9A141F2B3E6600737E25 /* AppDelegate.swift */; };
-		C81C9A171F2B3E6600737E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C9A161F2B3E6600737E25 /* ViewController.swift */; };
 		C81C9A1A1F2B3E6600737E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81C9A181F2B3E6600737E25 /* Main.storyboard */; };
 		C81C9A1C1F2B3E6600737E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81C9A1B1F2B3E6600737E25 /* Assets.xcassets */; };
 		C81C9A1F1F2B3E6600737E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81C9A1D1F2B3E6600737E25 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		C81C9A111F2B3E6600737E25 /* DYZB-YW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DYZB-YW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81C9A141F2B3E6600737E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C81C9A161F2B3E6600737E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C81C9A191F2B3E6600737E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C81C9A1B1F2B3E6600737E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81C9A1E1F2B3E6600737E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		C81C9A131F2B3E6600737E25 /* DYZB-YW */ = {
 			isa = PBXGroup;
 			children = (
+				C8E18D6E1F2B4E1E00908CF4 /* Classes */,
 				C81C9A141F2B3E6600737E25 /* AppDelegate.swift */,
-				C81C9A161F2B3E6600737E25 /* ViewController.swift */,
 				C81C9A181F2B3E6600737E25 /* Main.storyboard */,
 				C81C9A1B1F2B3E6600737E25 /* Assets.xcassets */,
 				C81C9A1D1F2B3E6600737E25 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				C81C9A361F2B3E6600737E25 /* Info.plist */,
 			);
 			path = "DYZB-YWUITests";
+			sourceTree = "<group>";
+		};
+		C8E18D6E1F2B4E1E00908CF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8E18D721F2B4E1E00908CF4 /* DYYMain */,
+				C8E18D701F2B4E1E00908CF4 /* DYYHome */,
+				C8E18D711F2B4E1E00908CF4 /* DYYLive */,
+				C8E18D6F1F2B4E1E00908CF4 /* DYYFollow */,
+				C8E18D731F2B4E1E00908CF4 /* DYYMine */,
+				C8E18D741F2B4E1E00908CF4 /* DYYTools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C8E18D6F1F2B4E1E00908CF4 /* DYYFollow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYFollow;
+			sourceTree = "<group>";
+		};
+		C8E18D701F2B4E1E00908CF4 /* DYYHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYHome;
+			sourceTree = "<group>";
+		};
+		C8E18D711F2B4E1E00908CF4 /* DYYLive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYLive;
+			sourceTree = "<group>";
+		};
+		C8E18D721F2B4E1E00908CF4 /* DYYMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYMain;
+			sourceTree = "<group>";
+		};
+		C8E18D731F2B4E1E00908CF4 /* DYYMine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYMine;
+			sourceTree = "<group>";
+		};
+		C8E18D741F2B4E1E00908CF4 /* DYYTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DYYTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81C9A171F2B3E6600737E25 /* ViewController.swift in Sources */,
 				C81C9A151F2B3E6600737E25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
